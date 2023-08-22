@@ -1,0 +1,52 @@
+> Create a high-level plan for completing a household task using the allowed actions and  
+visible objects.  
+> Allowed actions: OpenObject \<obj\>, CloseObject \<obj\>, PickupObject \<obj\>, PutObject \<obj\> \<obj\>, PourObject \<obj\> \<obj\>, ToggleObjectOn \<obj\>, ToggleObjectOff \<obj\>, SliceObject \<obj\>, Navigation \<obj\>  
+>   
+>   
+> Task description: Feed the dog and put the dogfood on the countertop.  
+> Completed plan: Navigation dogfood, PickupObject dogfood  
+> Moveable objects are dogfood, dogbowl, plant, apple  
+> Static objects are table, chair, countertop  
+> Open/Close objects are microwave  
+> Next plan: Navigation dogbowl, PourObject dogfood, PutObject dogfood countertop  
+>   
+> Task description: Water the indoor plant and leave the wateringcan on the table.  
+> Completed plan: Navigation wateringcan, PickupObject wateringcan  
+> Moveable objects objects are banana, dogbowl, wateringcan, plant  
+> Static objects are table, chair, countertop  
+> Open/Close objects are fridge  
+> Next plan: Navigation plant, PourObject wateringcan plant, PutObject wateringcan table  
+>   
+> Task description: Put the sock in the washing machine.  
+> Completed plan: Navigation sock  
+> Moveable objects are sock, tvremote, plant  
+> Static objects are countertop, table, chair  
+> Open/Close objects are washingmachine, microwave  
+> Next plan: PickupObject sock, Navigation washingmachine, OpenObject washingmachine, PutObject sock washingmachine, CloseObject washingmachine  
+>   
+> Task description: Find the tvremote and put it on the armchair.  
+> Completed plan: Navigation tvremote, PickupObject tvremote, Navigation armchair  
+> Moveable objects are tvremote, biscuits  
+> Static objects are sofa, table, armchair, tv, lamp  
+> Next plan: PutObject tvremote armchair  
+>   
+> Task description: Put the salmon on the plate and the plate in the fridge  
+> Completed plan: Navigation salmon, PickupObject salmon  
+> Moveable objects are salmon, plant, banana, plate  
+> Static objects are sink, table, countertop, lamp  
+> Open/Close objects are fridge  
+> Next plan:  
+>  
+Here is a high-level plan for completing the household task of putting salmon on a plate and the plate in the fridge using the provided actions and objects:  
+  
+Navigation plate  
+PickupObject plate  
+Navigation salmon  
+PickupObject salmon  
+PutObject salmon plate  
+Navigation fridge  
+OpenObject fridge  
+PutObject plate fridge  
+CloseObject fridge  
+  
+The key steps are navigating to the relevant objects, picking them up, putting the salmon on the plate, opening the fridge, putting the plate inside, and closing the fridge. Let me know if you need any clarification or have additional tasks you'd like me to plan out!  
